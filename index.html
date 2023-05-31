@@ -3,39 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <title>Curriculo</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  
+
   <body>
-    <h1>Gabriel Henrique Castelo Costa</h1>
-    <img src="./Foto Currículo.jpg" />
+    <div id="div-title" class="center">
+      <h1>Gabriel Henrique Castelo Costa</h1>
+      <p class="subtitle">Estudante de Engenharia de Software</p>
+    </div>
+    <div id="contact" class="center">
+      <p>
+        E-mail: <a href="mailto:gabflubr@outlook.com">gabflubr@outlook.com</a>
+        <br />
+        Github:
+        <a href="https://github.com/GabrielCastelo-31">GabrielCastelo-31</a>
+        <br />
+        LinkedIn:<a href="https://www.linkedin.com/in/gabriel-castelo/"
+          >gabriel-castelo</a
+        >
+      </p>
+    </div>
+    <div id="photo">
+      <img class="circular--square" src="./Foto Currículo.jpg" />
+    </div>
 
-    <p>Estudante de Engenharia de Software</p>
-    <p>
-      E-mail: <a href="mailto:gabflubr@outlook.com">gabflubr@outlook.com</a>
-      <br />
-      Github:
-      <a href="https://github.com/GabrielCastelo-31">GabrielCastelo-31</a>
-      <br />
-      LinkedIn:<a href="https://www.linkedin.com/in/gabriel-castelo/"
-        >gabriel-castelo</a
-      >
-    </p>
-
-    <h2>Formação acadêmica</h2>
-    <ul>
-      <li>Graduação em Engenharia de Software (2022-Atual).</li>
-    </ul>
-    <h2>Experiência profissional</h2>
-    <ul>
-      <li>Trainee na EngNet Consultoria</li>
-    </ul>
-    <h2>Competências chaves</h2>
-    <ul>
-      <li>Python</li>
-      <li>C language</li>
-      <li>Java</li>
-      <li>Linux</li>
-    </ul>
+    <div id="information">
+      <h2>Formação acadêmica</h2>
+      <div class="information">
+        <ul>
+          <li>Graduação em Engenharia de Software (2022-Atual).</li>
+        </ul>
+      </div>
+      <h2>Experiência profissional</h2>
+      <div class="information">
+        <ul>
+          <li>Trainee na EngNet Consultoria</li>
+        </ul>
+      </div>
+      <h2>Competências chaves</h2>
+      <div class="information">
+        <ul>
+          <li class="star-rating">
+            Python <img class="stars" src="./stars.png" />
+          </li>
+          <li class="star-rating">
+            C language <img class="stars" src="./stars.png" />
+          </li>
+          <li class="star-rating">
+            Java <img class="stars" src="./stars.png" />
+          </li>
+          <li class="star-rating">
+            Linux <img class="stars" src="./stars.png" />
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
   <html />
 </html>
